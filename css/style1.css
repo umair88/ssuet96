@@ -1,0 +1,308 @@
+/* Remove margins and padding from the list, and add a black background color */
+/*table{
+  border: 10px
+}
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+html{
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background: #494E6B;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 0 100px;
+}
+
+.divTable{
+  display: table;
+  width: 100%;
+
+
+}
+.divTableRow {
+  display: table-row;
+  padding: 15px 10px 10px 20px;
+  font-family: Artifika;
+  font-size: 16px; 
+  font-weight: bold;
+  text-align: center; 
+  background: #69D68C;
+  color:#fff
+
+}
+
+.divTableCell {
+  border: 1px solid #eee;
+  display: table-cell;
+  padding: 15px 10px 10px 20px;
+
+
+}
+.divTableBody {
+  display: table-row-group;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.10)
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #494E6B;
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: left;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 13px;
+
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #5B4A75;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+.footer {
+  font-family: Artifika;
+  font-size: 13px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0.8rem;
+  background-color: #494E6B;
+  text-align: center;
+}
+
+.radios{
+    width: 80%;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+h1 {
+  color: #fff;
+  font-family: Artifika;
+  font-size: 3.2em;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #fff;
+  font-family: "Sofia", cursive;
+  font-size: 15px;
+  font-weight: bold;
+  font-size: 5.6em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #fff;
+  font-family: Artifika;
+  font-size: 15px;
+  font-weight: bold;
+  font-size: 2.6em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h4 {
+  color: #fff;
+  font-family: Artifika;
+  font-size: 15px;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+span {
+  font-size: 3em;
+  font-family: Artifika, cursive;
+}
+
+span b {
+  font-size: 50%;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+option {
+    font-weight: bold;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+select {
+  width: 350px;
+  padding: 20px 0px;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #435160;
+  outline: none;
+  background: #494E6B;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  font-size: 12px;
+}
+
+textarea {
+  width: 350px;
+  padding: 20px 0px;
+  border: 0;
+  border-bottom: 1px 1px 1px  1px solid #435160;
+  outline: none;
+  background: #494E6B;
+  font-size: 12px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+}
+
+ /* */
+.login {
+  width: 350px;
+  font-size: 10px;
+  position: relative;
+  top: 10%;
+  left: 50%;
+  margin-left: -175px;
+}
+
+.logout {
+  width: 1000px;
+  font-size: 10px;
+  position: relative;
+  top: 30%;
+  left: 50%;
+  margin-left: -175px;
+}
+
+
+
+
+input[type="text"], input[type="password"], input[type="email"] {
+  width: 350px;
+  padding: 15px 0px;
+  background: #494E6B;
+  border: 0;
+  border-bottom: 2px solid #435160;
+  outline: none;
+  color: #fff;
+  font-size: 12px;
+}
+input[type=checkbox] {
+  display: none;
+}
+
+label {
+  display: block;
+  position: absolute;
+  margin-right: 10px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: transparent;
+  content: "";
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  border: 3px solid #435160;
+}
+
+#agree:checked ~ label[for=agree] {
+  background: #435160;
+}
+
+input[type="submit"] {
+  background: #1FCE6D;
+  border: 0;
+  width: 350px;
+  height: 40px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+input[type="submit"]:hover {
+  background: #16aa56;
+  animation-name: shake;
+}
+
+
+
+.forgot {
+  margin-top: 30px;
+  display: block;
+  font-size: 11px;
+  text-align: center;
+  font-weight: bold;
+}
+.forgot:hover {
+  margin-top: 30px;
+  display: block;
+  font-size: 11px;
+  text-align: center;
+  font-weight: bold;
+  color: #6D7781;
+}
+
+.agree {
+  padding: 30px 0px;
+  font-size: 12px;
+  text-indent: 25px;
+  line-height: 15px;
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+  font-size: 12px;
+}
+
+.animated {
+  animation-fill-mode: both;
+  animation-duration: 1s;
+}
+
+div.radios{
+  width: 100%;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-10px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(10px);
+  }
+}
