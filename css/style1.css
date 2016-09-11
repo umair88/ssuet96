@@ -304,13 +304,9 @@ div.radios{
     font-size: 12px;
 }
 
-.video {
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  margin: -180px 0 0 -240px;
+input:invalid {
+  background-color: transparent;
 }
-
 
 @keyframes shake {
   0%, 100% {

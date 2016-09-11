@@ -18,8 +18,6 @@ session_start();
   </title>
 </head>
 <body>
-<form method="post" action="thanks.php">
-
 <ul class="topnav" id="myTopnav">
   <li><a href="index.php">Register</a></li>
   <li><a href="login.php">Login</a></li>
@@ -29,9 +27,6 @@ session_start();
 <!--to echo someting you can write < ?= instead of writing < ?php echo  -->
   <h2>Thank you  <?= $_SESSION['firstname'] . " " . $_SESSION['lastname']; ?> for visiting. </h2>
 
-
-
-</div>
 <footer class="footer">
 <p><?php include("footer.php");?></p>
 </footer>

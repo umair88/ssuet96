@@ -88,27 +88,28 @@
  <div style="width:100%">
   <div style="width:10%;float:left;padding-top: 5.4%;">
 <i class="fa fa-user"></i> </div>
-<div style="width:90%;float:left"><input type="text" name="firstname" placeholder="Enter First Name" /> </div>
+<div style="width:90%;float:left"><input type="text" name="firstname" placeholder="Enter First Name" required/> 
+</div>
 </div>
 
     <div style="width:100%">
   <div style="width:10%;float:left;padding-top: 5.4%;">
 <i class="fa fa-user"></i> </div>
-<div style="width:90%;float:left"><input type="text" name="lastname" placeholder="Enter Last Name" />
+<div style="width:90%;float:left"><input type="text" name="lastname" placeholder="Enter Last Name" required/>
  </div>
 </div>
 
       <div style="width:100%">
   <div style="width:10%;float:left;padding-top: 5.4%;">
 <i class="fa fa-flag"></i> </div>
-<div style="width:90%;float:left"><input type="text" name="country" placeholder="Country" />
+<div style="width:90%;float:left"><input type="text" name="country" placeholder="Country" required/>
  </div>
 </div>
 
         <div style="width:100%">
   <div style="width:10%;float:left;padding-top: 5.4%;">
 <i class="fa fa-flag"></i> </div>
-<div style="width:90%;float:left"><input type="text" name="city" placeholder="City" />
+<div style="width:90%;float:left"><input type="text" name="city" placeholder="City" required/>
  </div>
 </div>
 
@@ -116,7 +117,7 @@
         <div style="width:100%">
   <div style="width:10%;float:left;padding-top: 5.4%;">
 <i class="fa fa-envelope-square"></i> </div>
-<div style="width:90%;float:left"><input type="email" name="email" placeholder="E-Mail Address" />
+<div style="width:90%;float:left"><input type="email" name="email" placeholder="E-Mail Address" required/>
  </div>
 </div>  
 
@@ -134,21 +135,21 @@
            <div style="width:100%">
   <div style="width:10%;float:left;padding-top: 5.4%;">
 <i class="fa fa-child"></i> </div>
-<div style="width:90%;float:left"><input type="text" name="kids" placeholder="Total Number of Kids" />
+<div style="width:90%;float:left"><input type="text" name="kids" placeholder="Total Number of Kids" required/>
  </div>
-</div> 
+</div>
 
           <div style="width:100%">
   <div style="width:10%;float:left;padding-top: 5.4%;">
 <i class="fa fa-graduation-cap"></i> </div>
-<div style="width:90%;float:left"><input type="text" name="degree" placeholder="Highest Degree" />
+<div style="width:90%;float:left"><input type="text" name="degree" placeholder="Highest Degree" required/>
  </div>
 </div>
   
             <div style="width:100%">
   <div style="width:10%;float:left;padding-top: 5.4%;">
 <i class="fa fa-certificate"></i> </div>
-<div style="width:90%;float:left"><input type="text" name="cert" placeholder="Certifications" />
+<div style="width:90%;float:left"><input type="text" name="cert" placeholder="Certifications" required/>
  </div>
 </div>  
 
@@ -163,28 +164,28 @@
              <div style="width:100%">
   <div style="width:10%;float:left;padding-top: 5.4%;">
 <i class="fa fa-building"></i> </div>
-<div style="width:90%;float:left"><input type="text" name="cname" placeholder="Company Name" />
+<div style="width:90%;float:left"><input type="text" name="cname" placeholder="Company Name" required/>
  </div>
 </div>   
 
              <div style="width:100%">
   <div style="width:10%;float:left;padding-top: 5.4%;">
 <i class="fa fa-star-half-o"></i> </div>
-<div style="width:90%;float:left"><input type="text" name="expertise" placeholder="Areas of Expertise" />
+<div style="width:90%;float:left"><input type="text" name="expertise" placeholder="Areas of Expertise" required/>
  </div>
 </div>   
 
              <div style="width:100%">
   <div style="width:10%;float:left;padding-top: 5.4%;">
 <i class="fa fa-wheelchair"></i> </div>
-<div style="width:90%;float:left"><input type="text" name="volunteer" placeholder="Other Volunteer Activities" />
+<div style="width:90%;float:left"><input type="text" name="volunteer" placeholder="Other Volunteer Activities" required/>
  </div>
 </div>   
 
              <div style="width:100%">
   <div style="width:10%;float:left;padding-top: 5.4%;">
 <i class="fa fa-music"></i> </div>
-<div style="width:90%;float:left"><input type="text" name="spare" placeholder="Spare Time Per Week" />
+<div style="width:90%;float:left"><input type="text" name="spare" placeholder="Spare Time Per Week" required/>
  </div>
 </div>   
 
@@ -208,7 +209,7 @@
 </div>
 </div>
 
-<textarea type="text" rows="6" cols="50" name="message" style="border:solid 2px #3F3250;" placeholder="Please write a message here ..."></textarea>
+<textarea type="text" rows="6" cols="50" name="message" style="border:solid 2px #3F3250;" placeholder="Please write a message here ..." required></textarea>
 
 
 <!-- <label>Your Message <span class="required">*</span></label>
@@ -216,7 +217,7 @@
         style="font-family:sans-serif;font: "Lucida Sans Unicode", font-size:12px;"></textarea> -->
 
 
-  <input class='animated' type='submit' value='Register' onclick="alert('Your information has been recorded successfully !!')" />
+  <input class='animated' type='submit' value='Register' />
 <!-- <a class='forgot' href='login.php'> Already have an account? Please Login Here</a> -->
 
 </div>
