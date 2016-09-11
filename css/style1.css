@@ -3,6 +3,14 @@
   border: 10px
 }
 */
+.video {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  margin: -180px 0 0 -240px;
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -295,6 +303,15 @@ div.radios{
     padding-bottom: 10px;
     font-size: 12px;
 }
+
+.video {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  margin: -180px 0 0 -240px;
+}
+
+
 @keyframes shake {
   0%, 100% {
     transform: translateX(0);

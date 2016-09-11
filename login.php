@@ -135,6 +135,9 @@ session_start();
 
 </div>
 </form>
+<div class="video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bHyIx-6nHM8" frameborder="0" allowfullscreen></iframe>
+</div>
 <footer class="footer">
 <p><?php include("footer.php");?></p>
 </footer>
