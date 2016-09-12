@@ -133,14 +133,12 @@ session_start();
   <input class='animated' type="submit" name="submit" value="Login"> </input><br />
   <!-- <input class='animated' type='submit' name="submit" value='Login' /> -->
 
-</div>
-</form>
-<div style="position: absolute; top: 120%; left: 50%; margin: -180px 0 0 -240px;">
+<div style="position: absolute; top: 485px; left: 50%; margin: -180px 0 0 -240px;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bHyIx-6nHM8" frameborder="0" allowfullscreen></iframe>
 </div>
-<div style="position: absolute; top: 75%; left: 50%; margin: -180px 0 0 -240px;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xdcyuX2la1o" frameborder="0" allowfullscreen></iframe>
 </div>
+</form>
+
 <footer class="footer">
 <p><?php include("footer.php");?></p>
 </footer>
