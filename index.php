@@ -24,8 +24,6 @@
 <div class='login'>
 
 
-
-  <br><br><br><br><br><br><br><br>
   <select name="rno">
     <option value="default">Select Roll Number</option>
     <option value="Roll No 1">Roll No 1</option>
@@ -98,7 +96,6 @@
 <div style="width:90%;float:left"><input type="text" name="lastname" placeholder="Enter Last Name" required/>
  </div>
 </div>
-
       <div style="width:100%">
   <div style="width:10%;float:left;padding-top: 5.4%;">
 <i class="fa fa-flag"></i> </div>
@@ -131,7 +128,7 @@
     <option value="Widowed">Widowed</option>
     <option value="Separated">Separated</option>
 </select>
-  
+
            <div style="width:100%">
   <div style="width:10%;float:left;padding-top: 5.4%;">
 <i class="fa fa-child"></i> </div>
@@ -145,7 +142,7 @@
 <div style="width:90%;float:left"><input type="text" name="degree" placeholder="Highest Degree" required/>
  </div>
 </div>
-  
+ 
             <div style="width:100%">
   <div style="width:10%;float:left;padding-top: 5.4%;">
 <i class="fa fa-certificate"></i> </div>
@@ -195,21 +192,28 @@
 <i class="fa fa-male"></i> <input class="" type="radio" name="gender" value="male" checked >Male 
 </div>
 
+
 <div  style="width:50%;float:left;text-align:center">
 <i class="fa fa-female"></i><input class="" type="radio" name="gender" value="female" >Female  <br/>
 </div>
+
 </div>
+
 <div class="radios">
 <div style="color:white; font-size:12px">Investment (Are you able to Invest in any projects?)</div><br>
 <div style="width:50%;float:left;text-align:center">
 <input class="" type="radio" name="investment" value="yes" checked>Yes
 </div>
+
+
 <div style="width:50%;float:left;text-align:center">
 <input type="radio" name="investment" value="no">No
 </div>
 </div>
 
-<textarea type="text" rows="6" cols="50" name="message" style="border:solid 2px #3F3250;" placeholder="Please write a message here ..." required></textarea>
+
+<br><br><br>
+<textarea type="text" rows="6" cols="50" name="message" style="border:solid 1px #777;" placeholder="Please write a message here ..." required></textarea>
 
 
 <!-- <label>Your Message <span class="required">*</span></label>

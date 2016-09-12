@@ -1,20 +1,14 @@
-/* Remove margins and padding from the list, and add a black background color */
-/*table{
-  border: 10px
-}
-*/
-.video {
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  margin: -180px 0 0 -240px;
-}
-
-
+/* To reset the whole document initially
+------------------------------------------------------- */
 * {
   margin: 0;
   padding: 0;
 }
+/* --------------------------------------------------------------------------------------------------------------------- */
+
+
+/* HTML & Body CSS Styles
+------------------------------------------------------- */
 html{
   position: relative;
   min-height: 100%;
@@ -27,36 +21,10 @@ body {
   margin: 0 0 100px;
 }
 
-.divTable{
-  display: table;
-  width: 100%;
+/* --------------------------------------------------------------------------------------------------------------------- */
 
-
-}
-.divTableRow {
-  display: table-row;
-  padding: 15px 10px 10px 20px;
-  font-family: Artifika;
-  font-size: 16px; 
-  font-weight: bold;
-  text-align: center; 
-  background: #69D68C;
-  color:#fff
-
-}
-
-.divTableCell {
-  border: 1px solid #eee;
-  display: table-cell;
-  padding: 15px 10px 10px 20px;
-
-
-}
-.divTableBody {
-  display: table-row-group;
-  box-shadow: 0px 0px 20px rgba(0,0,0,0.10)
-}
-
+/* Navigation Bar Styles
+------------------------------------------------------- */
 ul.topnav {
     list-style-type: none;
     margin: 0;
@@ -86,25 +54,10 @@ ul.topnav li a:hover {background-color: #5B4A75;}
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 ul.topnav li.icon {display: none;}
 
-.footer {
-  font-family: Artifika;
-  font-size: 13px;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 0.8rem;
-  background-color: #494E6B;
-  text-align: center;
-}
+/* --------------------------------------------------------------------------------------------------------------------- */
 
-.radios{
-    width: 80%;
-    display: inline-block;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 15px;
-}
+/* All headings styles
+------------------------------------------------------- */
 h1 {
   color: #fff;
   font-family: Artifika;
@@ -144,6 +97,45 @@ h4 {
   margin-bottom: 20px;
 }
 
+/* --------------------------------------------------------------------------------------------------------------------- */
+
+/* Styles for Tables after login page
+------------------------------------------------------- */
+
+.divTable{
+  display: table;
+  width: 100%;
+
+
+}
+.divTableRow {
+  display: table-row;
+  padding: 15px 10px 10px 20px;
+  font-family: Artifika;
+  font-size: 16px; 
+  font-weight: bold;
+  text-align: center; 
+  background: #69D68C;
+  color:#fff
+
+}
+
+.divTableCell {
+  border: 1px solid #eee;
+  display: table-cell;
+  padding: 15px 10px 10px 20px;
+
+
+}
+.divTableBody {
+  display: table-row-group;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.10)
+}
+
+/* --------------------------------------------------------------------------------------------------------------------- */
+
+/* Just used in footer page
+------------------------------------------------------- */
 span {
   font-size: 3em;
   font-family: Artifika, cursive;
@@ -152,6 +144,9 @@ span {
 span b {
   font-size: 50%;
 }
+/* --------------------------------------------------------------------------------------------------------------------- */
+
+
 
 a {
   color: #fff;
@@ -210,11 +205,8 @@ textarea {
   margin-left: -175px;
 }
 
-
-
-
 input[type="text"], input[type="password"], input[type="email"] {
-  width: 350px;
+  width: 100%;
   padding: 15px 0px;
   background: #494E6B;
   border: 0;
@@ -222,6 +214,9 @@ input[type="text"], input[type="password"], input[type="email"] {
   outline: none;
   color: #fff;
   font-size: 12px;
+  display: block;
+  height: 34px;
+  line-height: 20px;
 }
 input[type=checkbox] {
   display: none;
@@ -261,8 +256,6 @@ input[type="submit"]:hover {
   animation-name: shake;
 }
 
-
-
 .forgot {
   margin-top: 30px;
   display: block;
@@ -298,10 +291,12 @@ input[type="submit"]:hover {
 
 div.radios{
   width: 100%;
-    display: inline-block;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 12px;
+  display: inline-block;
+  padding: 30px 5px;
+  font-size: 12px;
+  height: 20px;
+  line-height: 15px;    
+
 }
 
 input:invalid {
@@ -318,4 +313,23 @@ input:invalid {
   20%, 40%, 60%, 80% {
     transform: translateX(10px);
   }
+}
+
+.video {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  margin: -180px 0 0 -240px;
+}
+
+.footer {
+  font-family: Artifika;
+  font-size: 13px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0.8rem;
+  background-color: #494E6B;
+  text-align: center;
 }
